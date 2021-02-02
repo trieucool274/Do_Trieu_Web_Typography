@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.hidden
+{
+	display: none;
+}
+
+h1
+{
+	font-family: 'alex_brushregular', times, serif;
+	font-size: 50px;
+	text-align: center;
+	background-color: yellow;
+}
+h5
+{
+	font-family: 'alex_brushregular', times, serif;
+	font-size: 80px;
+}
+#container {
+ 	margin: auto;
+	width:1100px;
+	height: auto;
+	overflow: hidden;
+	background-color: white;
+	flex-wrap: wrap;
+
+}
+.centered {
+  position: absolute;
+  top: 8px;
+  left: 100px;
+  margin: auto;
+}
+.p1 {
+  font-family: 'Tangerine', cursive, serif;
+  font-size: 30px;
+}
+
+.firsttext
+{
+	text-align: center;
+	background-color: white;
+	margin: 20px;
+}
+.secondtext
+{
+	font-family: 'Tangerine', cursive;
+	font-size: 30px;
+	text-align: center;
+	background-color: white;
+	margin: 20px;
+}
+.mainproduct {
+  display: flex;
+ justify-content: space-around;
+   margin: 20px;
+
+}
+
+.mainproduct > div {
+	font-family: 'Sansita Swashed', cursive, serif;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 17px;
+}
+.secondproduct {
+  display: flex;
+ justify-content: space-around;
+ flex-direction: row-reverse;
+   margin: 20px;
+
+}
+
+.secondproduct > div {
+	font-family: 'Sansita Swashed', cursive, serif;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 17px;
+}
+
+.thirdproduct {
+  display: flex;
+ justify-content: space-between;
+ align-items: flex-end;
+   margin: 20px;
+
+}
+
+.thirdproduct > div 
+{
+  font-family: 'Sansita Swashed', cursive, serif;
+  width: auto;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+}
+.lastproduct {
+  position: relative;
+  max-width: auto;
+  margin: 20px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ffd24d
+;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white; 
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.lastproduct img {vertical-align: middle;}
+
+.lastproduct .lastproductcontent {
+  font-family: 'Nanum Pen Script', cursive, serif;
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 2); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: auto;
+  padding: 20px;
+  font-size: 25px;
+}
+.conclusion
+{
+	font-family: 'Tangerine', cursive, serif;
+	font-size: 30px;
+	color: #f1f1f1;
+	text-align: center;
+	background-color: lightgrey;
+	margin: 10px;
+	background-color: black;
+}
+
+.footertext
+{
+margin: auto;
+}
+.lastthing {
+  display: flex;
+ text-align: right;
+  width: 100%;
+  height: auto;
+}
